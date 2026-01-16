@@ -353,7 +353,7 @@ export const ASSET_DOCUMENTS: AssetDocuments[] = [
         brandColor: '#000000',
         textColor: '#FFFFFF',
         logoText: 'LB',
-        thumbnail: '../../assets/ccdbeb971b90bfd52c111142195bcbcd5006c060.png',
+        thumbnail: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxMYW5lJTIwQnJ5YW50JTIwZmFzaGlvbiUyMHN0b3JlfGVufDF8fHx8MTc2ODM4MjEyM3ww&ixlib=rb-4.1.0&q=80&w=400',
         categories: [
           {
             name: 'Leases',
