@@ -1,0 +1,223 @@
+export interface BuildingDocument {
+  id: string;
+  name: string;
+  fileName: string;
+  category: string;
+  status: 'Completed' | 'Processing' | 'Failed';
+  uploadDate: string;
+  assetId: string;
+  assetName: string;
+}
+
+// Building-level documents for VTS Tower (from the image)
+export const VTS_TOWER_BUILDING_DOCUMENTS: BuildingDocument[] = [
+  {
+    id: 'bd1',
+    name: 'Certificate of Occupancy',
+    fileName: 'VTS_Tower_Certificate_of_Occupancy.pdf',
+    category: 'Certificate of Occupancy',
+    status: 'Completed',
+    uploadDate: 'Jan 15, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd2',
+    name: 'Building Insurance Policy 2024',
+    fileName: 'Building_Insurance_Policy_2024.pdf',
+    category: 'Insurance Documents',
+    status: 'Completed',
+    uploadDate: 'Feb 1, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd3',
+    name: 'Property Tax Assessment 2024',
+    fileName: 'Property_Tax_Assessment_2024.pdf',
+    category: 'Tax Documents',
+    status: 'Completed',
+    uploadDate: 'Jan 20, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd4',
+    name: 'Fire Safety Inspection Report',
+    fileName: 'Fire_Safety_Inspection_Report.pdf',
+    category: 'Safety & Compliance',
+    status: 'Completed',
+    uploadDate: 'Mar 5, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd5',
+    name: 'Elevator Maintenance Contract',
+    fileName: 'Elevator_Maintenance_Contract.pdf',
+    category: 'Maintenance Contracts',
+    status: 'Completed',
+    uploadDate: 'Jan 10, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd6',
+    name: 'HVAC Service Agreement',
+    fileName: 'HVAC_Service_Agreement.pdf',
+    category: 'Maintenance Contracts',
+    status: 'Completed',
+    uploadDate: 'Feb 15, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd7',
+    name: 'Building Architectural Plans',
+    fileName: 'Building_Architectural_Plans.pdf',
+    category: 'Building Plans',
+    status: 'Completed',
+    uploadDate: 'Dec 1, 2023',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd8',
+    name: 'Energy Efficiency Report 2024',
+    fileName: 'Energy_Efficiency_Report_2024.pdf',
+    category: 'Energy & Utilities',
+    status: 'Completed',
+    uploadDate: 'Jan 25, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd9',
+    name: 'Building Security Plan',
+    fileName: 'Building_Security_Plan.pdf',
+    category: 'Safety & Compliance',
+    status: 'Completed',
+    uploadDate: 'Feb 10, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd10',
+    name: 'Environmental Impact Assessment',
+    fileName: 'Environmental_Impact_Assessment.pdf',
+    category: 'Environmental',
+    status: 'Completed',
+    uploadDate: 'Jan 5, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd11',
+    name: 'Common Area Maintenance Budget',
+    fileName: 'CAM_Budget_2024.pdf',
+    category: 'Financial',
+    status: 'Completed',
+    uploadDate: 'Jan 30, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd12',
+    name: 'Property Management Agreement',
+    fileName: 'Property_Management_Agreement.pdf',
+    category: 'Contracts & Agreements',
+    status: 'Completed',
+    uploadDate: 'Dec 15, 2023',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd13',
+    name: 'Parking Lot Lease Agreement',
+    fileName: 'Parking_Lot_Lease_Agreement.pdf',
+    category: 'Contracts & Agreements',
+    status: 'Completed',
+    uploadDate: 'Feb 20, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd14',
+    name: 'Roofing Warranty Certificate',
+    fileName: 'Roofing_Warranty_Certificate.pdf',
+    category: 'Warranties',
+    status: 'Completed',
+    uploadDate: 'Jan 12, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd15',
+    name: 'Accessibility Compliance Report',
+    fileName: 'Accessibility_Compliance_Report.pdf',
+    category: 'Safety & Compliance',
+    status: 'Completed',
+    uploadDate: 'Mar 1, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd16',
+    name: 'Building WiFi Infrastructure Plan',
+    fileName: 'WiFi_Infrastructure_Plan.pdf',
+    category: 'Technology & Infrastructure',
+    status: 'Completed',
+    uploadDate: 'Feb 5, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd17',
+    name: 'Landscaping Maintenance Contract',
+    fileName: 'Landscaping_Contract.pdf',
+    category: 'Maintenance Contracts',
+    status: 'Completed',
+    uploadDate: 'Jan 18, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd18',
+    name: 'Window Cleaning Service Agreement',
+    fileName: 'Window_Cleaning_Agreement.pdf',
+    category: 'Maintenance Contracts',
+    status: 'Completed',
+    uploadDate: 'Feb 12, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd19',
+    name: 'Emergency Evacuation Plan',
+    fileName: 'Emergency_Evacuation_Plan.pdf',
+    category: 'Safety & Compliance',
+    status: 'Completed',
+    uploadDate: 'Jan 8, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+  {
+    id: 'bd20',
+    name: 'Utility Usage Report 2023',
+    fileName: 'Utility_Usage_Report_2023.pdf',
+    category: 'Energy & Utilities',
+    status: 'Completed',
+    uploadDate: 'Jan 3, 2024',
+    assetId: 'a2',
+    assetName: 'VTS Tower',
+  },
+];
+
+// General function to get building documents for any asset
+export function getBuildingDocumentsByAsset(assetId: string): BuildingDocument[] {
+  // For now, only VTS Tower has building documents
+  if (assetId === 'a2') {
+    return VTS_TOWER_BUILDING_DOCUMENTS;
+  }
+  return [];
+}
